@@ -1,0 +1,36 @@
+location,property_type,bedrooms,bathrooms,annual_rent
+Agege,Mini Flat,1,1,850000
+Agege,Flat,2,1,1200000
+Agege,Flat,2,2,1400000
+Ajah,Mini Flat,1,1,1400000
+Ajah,Flat,2,2,2400000
+Ajah,Apartment,3,3,3400000
+Ajah,Duplex,4,4,5200000
+Gbagada,Mini Flat,1,1,1500000
+Gbagada,Flat,2,2,2700000
+Gbagada,Apartment,3,3,3900000
+Ikeja,Mini Flat,1,1,1800000
+Ikeja,Flat,2,2,3400000
+Ikeja,Apartment,3,3,5200000
+Ikeja,Duplex,4,4,8000000
+Ikoyi,Flat,2,2,7000000
+Ikoyi,Apartment,3,3,11000000
+Ikoyi,Apartment,4,4,15000000
+Ikoyi,Duplex,5,5,22000000
+Lekki,Mini Flat,1,1,2200000
+Lekki,Flat,2,2,4200000
+Lekki,Apartment,3,3,6500000
+Lekki,Duplex,4,4,10500000
+Maryland,Mini Flat,1,1,1700000
+Maryland,Flat,2,2,3100000
+Maryland,Apartment,3,3,4700000
+Surulere,Mini Flat,1,1,1300000
+Surulere,Flat,2,2,2500000
+Surulere,Apartment,3,3,3800000
+Victoria Island,Flat,2,2,6500000
+Victoria Island,Apartment,3,3,9500000
+Victoria Island,Duplex,4,4,15000000
+Yaba,Mini Flat,1,1,1500000
+Yaba,Flat,2,2,2800000
+Yaba,Apartment,3,3,4300000
+Yaba,Duplex,4,4,6500000
