@@ -1,17 +1,12 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 
 from app.prediction import predict_rent
-
+from app.schemas import PropertyDetails
 
 app = FastAPI(title="Lagos Rent Prediction API")
 
 
-class PropertyDetails(BaseModel):
-    location: str
-    property_type: str
-    bedrooms: int
-    bathrooms: int
+
 
 
 @app.get("/")
