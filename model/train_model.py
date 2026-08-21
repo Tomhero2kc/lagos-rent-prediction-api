@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
@@ -63,12 +63,17 @@ def train_model():
     predictions = model.predict(x_test)
 
     average_error = mean_absolute_error(y_test, predictions)
+    r2_result = r2_score(y_test, predictions)
 
     joblib.dump(model, model_file)
 
-    print("Rent prediction model trained successfully.")
+    print("\nModel Check")
+    print("-" * 30)
     print(f"Listings used: {len(rent_data)}")
+    print(f"Training listings: {len(x_train)}")
+    print(f"Test listings: {len(x_test)}")
     print(f"Average prediction error: ₦{average_error:,.0f}")
+    print(f"R-squared score: {r2_result:.2f}")
     print(f"Model saved to: {model_file}")
 
 
